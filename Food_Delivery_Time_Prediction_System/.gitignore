@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Model files
+*.pkl
+*.h5
+*.joblib
+
+# IDE files
+.idea/
+
+# Environment variables
+.env
+
+model_rf.sav
