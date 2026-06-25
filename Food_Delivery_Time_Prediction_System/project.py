@@ -57,7 +57,7 @@ st.image(
 st.markdown('<div class="main-title">FOOD DELIVERY TIME PREDICTION SYSTEM</div>', unsafe_allow_html=True)
 st.markdown('<div class="sub-title">Enter the details to predict delivery time:</div>', unsafe_allow_html=True)
 
-# ---------- MAIN APP ----------
+# ---------- MAIN APP -----------
 def main():
     model = pickle.load(open('model_rf.sav', 'rb'))
     label_encoders = pickle.load(open('label_encoders.sav', 'rb'))
